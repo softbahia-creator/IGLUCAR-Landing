@@ -14,6 +14,10 @@
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
 
     font-family:Arial, Helvetica, sans-serif;
@@ -26,11 +30,20 @@ body{
 
 }
 
+.container{
+
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+    padding:0 20px;
+
+}
+
 header{
 
     background:var(--amarelo);
-
     padding:30px 20px 60px;
+    text-align:center;
 
 }
 
@@ -43,19 +56,75 @@ section{
 footer{
 
     background:var(--azul);
-
     color:#fff;
-
     padding:50px 20px;
+    text-align:center;
 
 }
 
-.container{
+/* ==========================
+   LOGO
+========================== */
 
-    width:100%;
+.logo{
 
-    max-width:1200px;
+    display:block;
+    width:260px;
+    max-width:90%;
+    height:auto;
+    margin:0 auto 20px;
 
-    margin:auto;
+}
+
+/* ==========================
+   TÍTULOS
+========================== */
+
+h1{
+
+    font-size:52px;
+    font-weight:800;
+    line-height:1.15;
+    margin-bottom:25px;
+    color:#111;
+
+}
+
+h2{
+
+    font-size:38px;
+    font-weight:700;
+    color:var(--azul);
+    margin-bottom:20px;
+
+}
+
+p{
+
+    font-size:20px;
+    max-width:900px;
+    margin:0 auto 20px;
+
+}
+
+/* ==========================
+   BOTÕES
+========================== */
+
+.btn-primary{
+
+    display:inline-block;
+    background:var(--azul);
+    color:#fff;
+    text-decoration:none;
+    padding:16px 32px;
+    border-radius:12px;
+    font-weight:bold;
+
+}
+
+.btn-primary:hover{
+
+    opacity:.9;
 
 }
