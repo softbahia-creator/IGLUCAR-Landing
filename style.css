@@ -128,3 +128,18 @@ p{
     opacity:.9;
 
 }
+... último código do style.css
+
+/* ===================================================
+   HERO
+=================================================== */
+
+#hero{
+
+    background:#F5E400;
+    text-align:center;
+    padding:40px 20px 70px;
+
+}
+
+/* restante do CSS... */
