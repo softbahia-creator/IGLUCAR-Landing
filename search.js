@@ -1,43 +1,30 @@
+document.addEventListener("DOMContentLoaded",()=>{
 
-document.addEventListener('DOMContentLoaded',()=>{
+const input=document.getElementById("vehicle-search");
+const button=document.getElementById("search-btn");
 
- const input=document.getElementById('vehicle-search');
- const button=document.getElementById('search-btn');
+if(!input||!button)return;
 
- button?.addEventListener('click',buscar);
+button.addEventListener("click",buscar);
 
- input?.addEventListener('keydown',e=>{
-   if(e.key==='Enter'){
-      buscar();
-   }
- });
+input.addEventListener("keydown",e=>{
+if(e.key==="Enter")buscar();
+});
 
- function buscar(){
+function buscar(){
 
-   const termo=input.value.trim();
+const termo=input.value.trim();
 
-   if(!termo){
-      alert('Digite o modelo do veículo.');
-      input.focus();
-      return;
-   }
+if(termo===""){
+alert("Digite o modelo do seu veículo.");
+input.focus();
+return;
+}
 
-   /*
-    Integração futura:
+const destino="https://iglucar.com.br/index.php?route=product/search&search="+encodeURIComponent(termo);
 
-    Buscar no OpenCart
+window.location.href=destino;
 
-    Exemplo:
-
-    https://iglucar.com.br/index.php?route=product/search&search=
-   */
-
-   const destino=
-   "https://iglucar.com.br/index.php?route=product/search&search="+
-   encodeURIComponent(termo);
-
-   window.location.href=destino;
-
- }
+}
 
 });
