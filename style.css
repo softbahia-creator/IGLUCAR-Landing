@@ -128,7 +128,6 @@ p{
     opacity:.9;
 
 }
-... último código do style.css
 
 /* ===================================================
    HERO
@@ -141,5 +140,74 @@ p{
     padding:40px 20px 70px;
 
 }
+/* ===================================================
+   HERO
+=================================================== */
 
-/* restante do CSS... */
+#hero{
+
+    background:#F5E400;
+    text-align:center;
+    padding:40px 20px 70px;
+
+}
+
+.hero-badge{
+
+    margin-bottom:20px;
+
+}
+
+.badge{
+
+    display:inline-block;
+
+    background:#232A84;
+
+    color:#FFFFFF;
+
+    padding:10px 22px;
+
+    border-radius:40px;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+}
+
+.hero-text{
+
+    max-width:850px;
+
+    margin:0 auto 35px;
+
+    font-size:22px;
+
+    color:#333333;
+
+}
+
+.hero-buttons{
+
+    margin:35px 0;
+
+}
+
+.hero-video{
+
+    width:100%;
+
+    max-width:900px;
+
+    height:500px;
+
+    margin:40px auto 0;
+
+    background:#FFFFFF;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
