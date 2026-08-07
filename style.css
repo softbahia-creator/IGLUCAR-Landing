@@ -1,6 +1,7 @@
-/*==========================
-IGLU-CAR - estilo.css
-==========================*/
+/*==========================*
+*IGLU-CAR - estilo.css*
+*PARTE 1/2*
+*==========================*/
 
 *{
 margin:0;
@@ -17,7 +18,7 @@ font-family:Arial,Helvetica,sans-serif;
 font-size:16px;
 line-height:1.6;
 color:#1d1d1d;
-background:#f5f7fb;
+background:#f7f7f7;
 }
 
 img{
@@ -37,49 +38,50 @@ margin:auto;
 padding:0 20px;
 }
 
-/*==========================
-HERO
-==========================*/
+/*==========================*
+* HERO
+*==========================*/
 
 #hero{
-    background:linear-gradient(180deg,#0057A8 0%,#0B4D92 100%);
-    color:#fff;
-    padding:25px 15px 40px;
-    text-align:center;
+background:linear-gradient(180deg,#ffffff 0%,#f4f4f4 100%);
+color:#1d1d1d;
+padding:35px 15px 50px;
+text-align:center;
 }
 
 .logo{
-    width:220px;
-    max-width:80%;
-    margin:0 auto 18px;
-    display:block;
+width:220px;
+max-width:80%;
+margin:0 auto 20px;
+display:block;
 }
 
 .hero-badge{
-    margin-bottom:18px;
+margin-bottom:18px;
 }
 
 .badge{
-    display:inline-block;
-    background:#18B85B;
-    color:#fff;
-    padding:10px 20px;
-    border-radius:40px;
-    font-size:.95rem;
-    font-weight:700;
+display:inline-block;
+background:#FFD54D;
+color:#1d1d1d;
+padding:10px 22px;
+border-radius:40px;
+font-size:.95rem;
+font-weight:700;
 }
 
 #hero h1{
-    max-width:900px;
-    margin:0 auto 20px;
-    font-size:2.6rem;
-    line-height:1.15;
-    font-weight:700;
-    letter-spacing:-0.5px;
+max-width:900px;
+margin:0 auto 20px;
+font-size:2.6rem;
+line-height:1.15;
+font-weight:700;
+letter-spacing:-.5px;
+color:#1d1d1d;
 }
 
 #hero strong{
-    color:#FFD54D;
+color:#D4A017;
 }
 
 .hero-text{
@@ -87,53 +89,48 @@ max-width:760px;
 margin:0 auto 30px;
 font-size:1.15rem;
 line-height:1.6;
-color:#F2F6FB;
+color:#555;
 }
 
 .hero-video{
 width:100%;
-max-width:420px;
-margin:20px auto 0;
-border:8px solid #FFD54D;
-border-radius:22px;
-overflow:hidden;
-background:#000;
-box-shadow:0 20px 60px rgba(0,0,0,.35);
-display:flex;
-justify-content:center;
-align-items:center;
+max-width:430px;
+margin:30px auto 0;
+padding:8px;
+background:#FFD54D;
+border-radius:24px;
+box-shadow:0 15px 40px rgba(0,0,0,.15);
 }
 
 .hero-video video{
 display:block;
 width:100%;
 height:auto;
-aspect-ratio:9 / 16;
-object-fit:contain;
+border-radius:18px;
 background:#000;
 }
 
-/*==========================
-SEÇÕES
-==========================*/
+/*==========================*
+* SEÇÕES
+*==========================*/
 
 section{
 padding:80px 0;
 }
 
 section:nth-child(even){
-background:#fff;
+background:#ffffff;
 }
 
 section:nth-child(odd){
-background:#f5f7fb;
+background:#f7f7f7;
 }
 
 section h2{
 font-size:2.2rem;
 text-align:center;
 margin-bottom:18px;
-color:#0b4d92;
+color:#D4A017;
 }
 
 section>div>p{
@@ -144,9 +141,9 @@ font-size:1.1rem;
 color:#555;
 }
 
-/*==========================
-CARDS
-==========================*/
+/*==========================*
+* CARDS
+*==========================*/
 
 .cards{
 display:grid;
@@ -156,7 +153,7 @@ gap:25px;
 
 .card,
 .cards article{
-background:#fff;
+background:#ffffff;
 border-radius:18px;
 padding:25px;
 box-shadow:0 8px 30px rgba(0,0,0,.08);
@@ -179,7 +176,7 @@ margin-bottom:18px;
 .cards article h3{
 font-size:1.3rem;
 margin-bottom:12px;
-color:#0b4d92;
+color:#D4A017;
 }
 
 .card p,
@@ -188,9 +185,9 @@ font-size:.98rem;
 color:#555;
 }
 
-/*==========================
-PROTEÇÃO
-==========================*/
+/*==========================*
+* PROTEÇÃO
+*==========================*/
 
 #protecao article{
 text-align:center;
@@ -200,9 +197,9 @@ text-align:center;
 font-size:1.25rem;
 }
 
-/*==========================
-CLIENTES
-==========================*/
+/*==========================*
+* CLIENTES
+*==========================*/
 
 .youtube-info{
 margin-top:45px;
@@ -210,13 +207,13 @@ text-align:center;
 font-size:1.1rem;
 }
 
-/*==========================
-ECONOMIA
-==========================*/
+/*==========================*
+* ECONOMIA
+*==========================*/
 
 .economia-destaque{
-background:#0b4d92;
-color:#fff;
+background:#FFD54D;
+color:#1d1d1d;
 padding:35px;
 border-radius:18px;
 margin-top:35px;
@@ -226,6 +223,7 @@ text-align:center;
 .economia-destaque h3{
 font-size:2rem;
 margin-bottom:20px;
+color:#1d1d1d;
 }
 
 .economia-destaque p{
@@ -239,9 +237,10 @@ text-align:center;
 font-weight:700;
 font-size:1.1rem;
 }
-/*==========================
-BENEFÍCIOS
-==========================*/
+
+/*==========================*
+* BENEFÍCIOS
+*==========================*/
 
 #beneficios article{
 text-align:center;
@@ -250,28 +249,28 @@ text-align:center;
 #beneficios h3{
 font-size:1.3rem;
 margin-bottom:15px;
-color:#0b4d92;
+color:#D4A017;
 }
 
 #beneficios p{
 color:#555;
 }
 
-/*==========================
-BUSCA
-==========================*/
+/*==========================*
+* BUSCA
+*==========================*/
 
 #busca{
-background:#0b4d92;
-color:#fff;
+background:#FFD54D;
+color:#1d1d1d;
 }
 
 #busca h2{
-color:#fff;
+color:#1d1d1d;
 }
 
 #busca p{
-color:#eef5ff;
+color:#444;
 max-width:850px;
 margin:0 auto 30px;
 }
@@ -283,20 +282,23 @@ display:block;
 margin:0 auto 20px;
 padding:18px 22px;
 font-size:1.05rem;
-border:none;
+background:#fff;
+color:#1d1d1d;
+border:2px solid #E4C23A;
 border-radius:12px;
 outline:none;
-box-shadow:0 5px 20px rgba(0,0,0,.15);
+box-shadow:0 5px 20px rgba(0,0,0,.10);
 }
 
 #vehicle-search:focus{
-box-shadow:0 0 0 4px rgba(255,255,255,.25);
+border-color:#D4A017;
+box-shadow:0 0 0 4px rgba(212,160,23,.20);
 }
 
 #search-btn{
 display:block;
 margin:auto;
-background:#17b857;
+background:#D4A017;
 color:#fff;
 border:none;
 padding:18px 35px;
@@ -308,7 +310,7 @@ transition:.25s;
 }
 
 #search-btn:hover{
-background:#14994a;
+background:#BF8F00;
 transform:translateY(-2px);
 }
 
@@ -316,9 +318,9 @@ transform:translateY(-2px);
 transform:scale(.98);
 }
 
-/*==========================
-FAQ
-==========================*/
+/*==========================*
+* FAQ
+*==========================*/
 
 #faq .card{
 height:100%;
@@ -327,33 +329,36 @@ height:100%;
 #faq h3{
 font-size:1.2rem;
 margin-bottom:12px;
+color:#D4A017;
 }
 
-/*==========================
-RODAPÉ
-==========================*/
+/*==========================*
+* RODAPÉ
+*==========================*/
 
 #rodape{
-background:#072b52;
-color:#fff;
+background:#F2F2F2;
+color:#1d1d1d;
 text-align:center;
 padding:60px 20px;
+border-top:4px solid #FFD54D;
 }
 
 #rodape h2{
 font-size:2rem;
 margin-bottom:25px;
+color:#D4A017;
 }
 
 #rodape p{
 margin-bottom:15px;
 font-size:1rem;
-color:#d8e5f7;
+color:#555;
 }
 
-/*==========================
-ANIMAÇÕES
-==========================*/
+/*==========================*
+* ANIMAÇÕES
+*==========================*/
 
 .card,
 .cards article,
@@ -370,9 +375,9 @@ transition:.30s;
 transition:.30s;
 }
 
-/*==========================
-UTILIDADES
-==========================*/
+/*==========================*
+* UTILIDADES
+*==========================*/
 
 .text-center{
 text-align:center;
@@ -414,41 +419,41 @@ box-shadow:0 12px 35px rgba(0,0,0,.15);
 border-radius:18px;
 }
 
-/*==========================
-IFRAMES
-==========================*/
+/*==========================*
+* IFRAMES
+*==========================*/
 
 iframe{
 border:none;
 border-radius:18px;
 }
 
-/*==========================
-SELEÇÃO
-==========================*/
+/*==========================*
+* SELEÇÃO
+*==========================*/
 
 ::selection{
-background:#0b4d92;
-color:#fff;
+background:#FFD54D;
+color:#1d1d1d;
 }
 
-/*==========================
-SCROLLBAR
-==========================*/
+/*==========================*
+* SCROLLBAR
+*==========================*/
 
 ::-webkit-scrollbar{
 width:10px;
 }
 
 ::-webkit-scrollbar-track{
-background:#e9eef5;
+background:#F2F2F2;
 }
 
 ::-webkit-scrollbar-thumb{
-background:#0b4d92;
+background:#D4A017;
 border-radius:20px;
 }
 
 ::-webkit-scrollbar-thumb:hover{
-background:#083b70;
+background:#BF8F00;
 }
